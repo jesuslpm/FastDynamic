@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastDynamic", "FastDynamic\FastDynamic.csproj", "{B4E09EAE-4812-491A-BE13-B26C1C5612F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample", "Sample\Sample.csproj", "{BD1556F4-272E-4CB6-8C98-7B292470DF33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Items", "Items", "{C7F40F96-05FC-43F2-A6C2-E48FDEC99C8E}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4E09EAE-4812-491A-BE13-B26C1C5612F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4E09EAE-4812-491A-BE13-B26C1C5612F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4E09EAE-4812-491A-BE13-B26C1C5612F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4E09EAE-4812-491A-BE13-B26C1C5612F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD1556F4-272E-4CB6-8C98-7B292470DF33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD1556F4-272E-4CB6-8C98-7B292470DF33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD1556F4-272E-4CB6-8C98-7B292470DF33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD1556F4-272E-4CB6-8C98-7B292470DF33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
