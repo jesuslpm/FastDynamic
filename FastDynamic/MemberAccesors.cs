@@ -20,8 +20,8 @@ namespace FastDynamic
 
         private static IDictionary<string, Setter> CreateSetters(Type type)
         {
-            PropertyInfo[] props = type.GetProperties();
-            FieldInfo[] fields = type.GetFields();
+            PropertyInfo[] props = type.GetProperties(BindingFlags.Instance | BindingFlags.Public );
+            FieldInfo[] fields = type.GetFields(BindingFlags.Instance | BindingFlags.Public);
             Dictionary<string, Setter> setters = new Dictionary<string, Setter>(props.Length + fields.Length);
             foreach (PropertyInfo pi in props)
             {
@@ -127,8 +127,8 @@ namespace FastDynamic
 
         private static IDictionary<string, Getter> CreateGetters(Type type)
         {
-            PropertyInfo[] props = type.GetProperties();
-            FieldInfo[] fields = type.GetFields();
+            PropertyInfo[] props = type.GetProperties(BindingFlags.Instance | BindingFlags.Public);
+            FieldInfo[] fields = type.GetFields(BindingFlags.Instance | BindingFlags.Public);
             Dictionary<string, Getter> getters = new Dictionary<string, Getter>(props.Length + fields.Length);
 
             foreach (PropertyInfo pi in props)
